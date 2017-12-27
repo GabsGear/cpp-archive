@@ -8,12 +8,19 @@ class Test {
     string name;
 
 public:
+    Test(): id(0), name(""){
+
+    }
     Test(int id, string name):id(id), name(name){ //constructor
 
     }
 
     void print() const {
         cout << id << ": " << name << endl;
+    }
+
+    bool operator<(const Test &other) const{
+        return name < other.name;
     }
 };
 
@@ -43,6 +50,7 @@ int main(){
         cout << "numero nao encontrado" << endl;
 
     set<Test> tests;
+    tests.insert(Test(10, "Gabss"));
     tests.insert(Test(10, "Gabs"));
     tests.insert(Test(20, "jogr"));
     tests.insert(Test(5, "carl"));
@@ -50,7 +58,6 @@ int main(){
     for(set<Test>::iterator it = tests.begin(); it != tests.end(); it++){
         it->print();
     }
-
 
 //set exibe ordenado sem elementos repetidos
     return 0;
