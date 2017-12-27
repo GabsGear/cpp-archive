@@ -1,0 +1,4 @@
+﻿  Custon Exception.cpp
+c:\users\gabriel\documents\projetinhos\c++\introducao\custon exception\custon exception\custon exception.cpp(18): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+  Custon Exception.vcxproj -> C:\Users\Gabriel\Documents\PROJETINHOS\c++\Introducao\Custon Exception\Debug\Custon Exception.exe
+  Custon Exception.vcxproj -> C:\Users\Gabriel\Documents\PROJETINHOS\c++\Introducao\Custon Exception\Debug\Custon Exception.pdb (Full PDB)

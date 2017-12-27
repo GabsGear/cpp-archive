@@ -1,0 +1,4 @@
+﻿  vectors.cpp
+c:\users\gabriel\documents\projetinhos\c++\3 standart template library\vectors\vectors\vectors.cpp(20): warning C4018: '<': signed/unsigned mismatch
+  vectors.vcxproj -> C:\Users\Gabriel\Documents\PROJETINHOS\c++\3 STANDART TEMPLATE LIBRARY\vectors\Debug\vectors.exe
+  vectors.vcxproj -> C:\Users\Gabriel\Documents\PROJETINHOS\c++\3 STANDART TEMPLATE LIBRARY\vectors\Debug\vectors.pdb (Full PDB)
