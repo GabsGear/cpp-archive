@@ -1,3 +1,4 @@
+// to compile g++ main.cpp -std=c++11 -o snake
 #include <stdlib.h>
 #include <iostream>
 #include <ctime>
