@@ -37,6 +37,5 @@ int main(){
         tests[i].print();
     }
 
-
     return 0;
 }
